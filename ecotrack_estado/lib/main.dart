@@ -6,3 +6,10 @@
 //
 // dominio/, datos/ y presentacion/vistas.dart son iguales en las tres.
 // Lo único que cambia está en lib/variantes/.
+import 'package:flutter/material.dart';
+import 'package:ecotrack_estado/variantes/a_change_notifier.dart';
+import 'package:ecotrack_estado/datos/consumo_repository.dart';
+
+void main(){
+  runApp(AppChangeNotifier(repositorio: MemoriaConsumoRepository()));
+}

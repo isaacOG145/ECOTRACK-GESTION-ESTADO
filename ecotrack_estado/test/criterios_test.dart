@@ -1,4 +1,4 @@
-// Dos filas de la tabla de criterios, comprobadas en las tres variantes:
+/*// Dos filas de la tabla de criterios, comprobadas en las tres variantes:
 //   Dato compartido: lo guardado en Registro aparece en Historial.
 //   Sustitución: se entrega otra fuente de datos y las pantallas no cambian.
 
@@ -125,3 +125,4 @@ void main() {
     });
   }
 }
+*/
